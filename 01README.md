@@ -17,5 +17,11 @@ $ ssh-copy-id jenkins@192.168.7.8 (หรือใส่ ชื่อที่�
 ทดสอบ login ssh jenkins@192.168.7.8 ssh jenkins@localhost
 
 เสร็จแล้วไปรันสคริป Jenkins-install.ssh
+
+
 วิธีเช็ค version Jenkins
+https://curiousviral.com/check-jenkins-version/
 cat /var/lib/jenkins/config.xml
+
+
+
