@@ -1,4 +1,5 @@
 Create jenkins account and set default shell to bash
+
 ให้เราสร้าง user ชื่อ jenkins ขั้นมาในทุกๆเครื่อง (ทำให้ครบทั้ง 3 เครื่อง) useradd jenkins passwd jenkins
 
 รันคำสั่ง visudo แล้วเพิ่ม jenkins ALL=(ALL) NOPASSWD: ALL ให้ทำต่อจากบรรทัดของ root ที่ทำเช่นนี้เพื่อที่จะได้ไม่ต้องใส่ password เวลา build package จาก jenkins user ให้ copy หรือพิมพ์เองก็ได้ visudo ให้ใส่เพิ่มเข้าไปที่บรรทัดที่ 93 jenkins ALL=(ALL) NOPASSWD: ALL thanaporn ALL=(ALL) NOPASSWD: ALL
